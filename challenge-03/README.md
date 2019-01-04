@@ -185,11 +185,11 @@ deve conter no retorno da frase acima é "metro" no lugar de "metros".
 método), que será concatenada com a frase de retorno, mostrando a resposta
 correta, de acordo com os dados inseridos no objeto.
 */
-pessoa.apresentacao function(){
+pessoa.apresentacao = function(){
     var sexo = 'o';
     if(pessoa.sexo==='Feminino'){
         sexo = 'a'}
-	return 'Olá, eu sou '+ sexo1 +' '+ pessoa.nome +', tenho '+ pessoa.idade +' anos, '+ pessoa.altura +'m, meu peso é '+ pessoa.peso +'kg e, só hoje, eu já caminhei '+ pessoa.caminhouQuantosMetros +' metros!"
+	return 'Olá, eu sou '+ sexo1 +' '+ pessoa.nome +', tenho '+ pessoa.idade +' anos, '+ pessoa.altura +'m, meu peso é '+ pessoa.peso +'kg e, só hoje, eu já caminhei '+ pessoa.caminhouQuantosMetros +' metros!"}
 
 
 // Agora, apresente-se ;)
